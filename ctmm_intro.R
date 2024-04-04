@@ -45,7 +45,7 @@ library(ctmm)
 help("as.telemetry")
 
 # loading data from Movebank CSV (which can be compressed)
-Buffalo <- as.telemetry('data/Kruger African Buffalo, GPS tracking, South Africa.zip')
+buffalo <- as.telemetry('data/Kruger African Buffalo, GPS tracking, South Africa.zip')
 # you can also import from a move object, data.frame, etc.
 
 #! load buffalo dataset from ctmm
